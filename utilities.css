@@ -53,7 +53,7 @@
 }
 
 .btn {
-    background-color: #4177DC;
+    background-color: #820D17;
     border-radius: 4px;
     padding: 1em 2em;
     font-family: exo;
@@ -69,24 +69,6 @@
 .btn:focus{
     transform: scale(1.05);
     transition: all .3s;
-}
-
-.banner-bag{
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 1.2em;
-    background: #242729;
-    border-radius: 20px 0;
-}
-
-.banner-bag:hover,
-.banner-bag:focus{
-    transition: all .3s;
-    padding: 1.3em;
-    background: #4177DC;
-    border-radius: 20px 0 20px 0;
 }
 
 .text-center {
