@@ -96,6 +96,11 @@ header {
   justify-content: space-between;
 }
 
+.navbar .logo img {
+  width: 50px;
+  margin-top: .4rem;
+}
+
 .navbar .links {
   display: flex;
   gap: 2rem;
@@ -144,4 +149,58 @@ header {
 .featured-btn .btn {
   margin: 0 .275rem;
   color: #262626;
+}
+
+.featured-btn button {
+  border: 1.8px solid #820D17;
+}
+
+.slider{
+  padding: 6em 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slider::before,
+.slider::after{
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  content: "";
+}
+.slider::before{
+  left: 0;
+}
+.slider::after{
+  right: 0;
+}
+
+@keyframes slide{
+  form{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.logo-slider img:hover{
+  transform: scale(1.20);
+  transition: all .6s;
+  cursor: pointer;
+}
+
+.logo-slider{
+  display: inline-block;
+  animation: 44s slide infinite linear;
+}
+
+.logo-slider img{
+  margin: 0 3em;
+}
+
+.banner {
+  margin-top: 6em;
 }
