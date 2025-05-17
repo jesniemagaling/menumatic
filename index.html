@@ -9,39 +9,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utilities.css">
 </head>
 <body>
-  <header class="navbar">
-    <nav class="container">
-      <ul class='nav-bar'>
-          <li class='logo'><a href='#'><img src='images/logo.svg'/></a></li>
-          <input type='checkbox' id='check' />
-          <span class="menu">
-            <li><a class="link" href="#Home">Home</a></li>
-            <li><a class="link" href="#About">About</a></li>
-            <li><a class="link" href="#cars">Popular</a></li>
-            <li><a class="link" href="#Featured">Featured</a></li>
-            <label for="check" class="close-menu"><img src="images/closelogo.svg" alt=""></i></label>
-          </span>
-          <li><a href="">Login</a></li>
-          <li><a href="">Talk to Sales</a></li>
-          <label for="check" class="open-menu"><img src="images/hamburgerlogo.svg" alt=""></label>
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="#"><img src="images/Logo.svg" alt=""></a></div>
+      <ul class="links">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Features</a></li>
+        <li><a class="nav-link" href="#">Demo</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
       </ul>
-    </nav>
+      <Button class="nav-btn btn">Login</Button>
+      <!-- <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div> -->
+    </div>
+    <!-- <div class="dropdown_menu open">
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#">Features</a></li>
+      <li><a class="nav-link" href="#">Demo</a></li>
+      <li><a class="nav-link" href="#">Contact</a></li>
+      <li><Button class="nav-btn btn">Login</Button></li>
+    </div> -->
   </header>
-  
+
   <div class="container flex main-featured">
     <main role="main" id="Home">
       <article class="article-featured grid">
-        <h1 class="text-center">Redefine Your Dining Experience</h1>
+        <div class="store-section flex">
+          <img src="images/building-storefront.svg" alt="">
+          <h1 class="text-center"><span>Redefine</span> Your Dining Experience</h1>
+        </div>
         <h2 class="text-center">with Effortless Speed and Proven Simplicity.</h2>
-        <h3 class="text-center">Optimize Staff Workflow and Upgrade Table Services</h3>
-        <div class="banner" data-aos="zoom-in" data-aos-duration="2600">
-          <button>Explore Now</button>
-          <button>View Plans</button>
+        <p class="text-center">Optimize Staff Workflow and Upgrade Table Services</p>
+        <div class="featured-btn text-center" data-aos="zoom-in" data-aos-duration="2600">
+          <button class="btn">Explore Now</button>
+          <button class="btn">View Plans</button>
         </div>
       </article>
     </main>
@@ -74,7 +80,7 @@
     </div>
   </div>
 
-  <div>
+  <div class="text-center">
     <img src="images/Banner.svg" alt="">
   </div>
 
@@ -196,8 +202,8 @@
       <div>
         <p>Discover MenuMatic's straightforward pricing, built to provide clear value for restaurants of all sizes. Our tiered plans offer essential features and unlock advanced capabilities as your business needs evolve, delivering a strong return on investment through enhanced efficiency and increased sales.</p>
         <div>
-          <button>Monthly</button>
-          <button>Yearly</button>
+          <button class="btn">Monthly</button>
+          <button class="btn">Yearly</button>
         </div>
       </div>
       <div class="grid container">
@@ -233,7 +239,7 @@
             <img src="images/ex-icon.svg" alt="">
             <p>Advanced security features</p>
           </div>
-          <button>Get Started</button>
+          <button class="btn">Get Started</button>
         </div>
       </div>
       <div class="grid container">
@@ -269,7 +275,7 @@
             <img src="images/check-icon.svg" alt="">
             <p>Advanced security features</p>
           </div>
-          <button>Get Started</button>
+          <button class="btn">Get Started</button>
         </div>
       </div>
     </section>

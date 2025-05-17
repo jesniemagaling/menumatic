@@ -53,10 +53,9 @@
 }
 
 .btn {
-    background-color: #820D17;
-    border-radius: 4px;
-    padding: 1em 2em;
-    font-family: exo;
+    border-radius: 10px;
+    padding: 1.125em 2.125em;
+    font-family: be vietnam pro;
     font-size: clamp(.5rem, 4vw, 1rem);
     font-weight: 500;
     border: none;
@@ -67,10 +66,17 @@
 
 .btn:hover,
 .btn:focus{
+    color: #ffffff;
+    background-color: #820D17;
+    font-weight: 600;
     transform: scale(1.05);
     transition: all .3s;
 }
 
 .text-center {
     text-align: center;
+}
+
+.color {
+    background-color: #ffffff;
 }
