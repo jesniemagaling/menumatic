@@ -489,3 +489,54 @@ header {
 .footer-info button {
   color: #262626;
 }
+
+/* features page */
+
+.section-1-features .flex {
+  justify-content: space-between;
+}
+
+.features-title {
+  margin: 14rem 0 6rem 0;
+}
+
+.features-title h1 {
+  max-width: 23.125rem;
+}
+
+.features-title p {
+  max-width: 48rem;
+}
+
+.features-card {
+  padding: 6rem 6rem 4rem 0;
+}
+
+.features-card h1 {
+  font-size: 1.5rem;
+  padding: 1em 0 .675em 0;
+}
+
+.cta .flex {
+  justify-content: space-between;
+  margin: 9rem 0 12rem 0;
+  padding: 5rem 6rem;
+  border: solid 2px #262626;
+}
+
+.cta-content {
+  max-width: 75rem;
+}
+
+.cta-content h1 {
+  line-height: 1.2;
+  margin-bottom: .375em;
+}
+
+.cta-content h1 span {
+  color: #820D17;
+}
+
+.cta button {
+  background-color: #820D17;
+}
