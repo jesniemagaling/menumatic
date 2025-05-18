@@ -1,5 +1,4 @@
 * {
-  background-color: #FFFFFF;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -100,11 +99,12 @@ header {
 
 .navbar {
   height: 100px;
-  max-width: 1560px;
+  padding: 0 10rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #FFFFFF;
 }
 
 .navbar .logo img {
@@ -167,7 +167,7 @@ header {
 }
 
 .slider{
-  padding: 6em 0;
+  padding-top: 6em;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -422,7 +422,70 @@ header {
   width: 50rem;
 }
 
+.section-5-info .fa-solid {
+  cursor: pointer;
+}
+
 .section-5-info .flex {
   margin-top: 5em;
   justify-content: space-between;
+}
+
+.contact {
+  background-color: #820D17;
+  padding: 2rem 1rem;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  max-width: 1595px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 4rem;
+}
+
+.footer-info {
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+
+.footer-info button {
+  padding: .5rem 0;
+  text-align: start;
+  font-size: 1rem;
+}
+
+.footer-info button:hover,
+.footer-info button:focus {
+  color: #FFFFFF;
+}
+
+.footer-socials .fa-brands:hover,
+.footer-socials .fa-brands:focus {
+  color: #FFFFFF;
+}
+
+.footer-links .footer-info {
+  flex: 1;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+.footer-logo {
+  margin-bottom: 2rem;
+}
+
+.footer-info p,
+.footer-info h2,
+.footer-info button {
+  color: #262626;
 }

@@ -51,7 +51,6 @@
 }
 
 .btn {
-    border-radius: 8px;
     padding: 1.125em 2.125em;
     font-family: be vietnam pro;
     font-size: clamp(.5rem, 4vw, 1rem);
