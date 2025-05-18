@@ -9,95 +9,109 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utilities.css">
 </head>
 <body>
-  <header class="navbar">
-    <nav class="container">
-      <ul class='nav-bar'>
-          <li class='logo'><a href='#'><img src='images/logo.svg'/></a></li>
-          <input type='checkbox' id='check' />
-          <span class="menu">
-            <li><a class="link" href="#Home">Home</a></li>
-            <li><a class="link" href="#About">About</a></li>
-            <li><a class="link" href="#cars">Popular</a></li>
-            <li><a class="link" href="#Featured">Featured</a></li>
-            <label for="check" class="close-menu"><img src="images/closelogo.svg" alt=""></i></label>
-          </span>
-          <li><a href="">Login</a></li>
-          <li><a href="">Talk to Sales</a></li>
-          <label for="check" class="open-menu"><img src="images/hamburgerlogo.svg" alt=""></label>
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="#"><img src="images/Logo.svg" alt=""></a></div>
+      <ul class="links">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Features</a></li>
+        <li><a class="nav-link" href="#">Demo</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
       </ul>
-    </nav>
+      <Button class="nav-btn btn">Login</Button>
+      <!-- <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div> -->
+    </div>
+    <!-- <div class="dropdown_menu open">
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#">Features</a></li>
+      <li><a class="nav-link" href="#">Demo</a></li>
+      <li><a class="nav-link" href="#">Contact</a></li>
+      <li><Button class="nav-btn btn">Login</Button></li>
+    </div> -->
   </header>
-  
+
   <div class="container flex main-featured">
     <main role="main" id="Home">
       <article class="article-featured grid">
-        <h1 class="text-center">Redefine Your Dining Experience</h1>
+        <div class="store-section flex">
+          <img src="images/building-storefront.svg" alt="">
+          <h1 class="text-center"><span>Redefine</span> Your Dining Experience</h1>
+        </div>
         <h2 class="text-center">with Effortless Speed and Proven Simplicity.</h2>
-        <h3 class="text-center">Optimize Staff Workflow and Upgrade Table Services</h3>
-        <div class="banner" data-aos="zoom-in" data-aos-duration="2600">
-          <button>Explore Now</button>
-          <button>View Plans</button>
+        <p class="text-center">Optimize Staff Workflow and Upgrade Table Services</p>
+        <div class="featured-btn text-center" data-aos="zoom-in" data-aos-duration="2600">
+          <button class="btn">Explore Now</button>
+          <button class="btn">View Plans</button>
         </div>
       </article>
     </main>
   </div>
 
-  <div class="section-6">
-    <div class="logo-slide">
+  <div class="slider">
+    <div class="logo-slider">
       <img src="images/slide-1.svg" alt="">
-      <img src="images/slide-2" alt="">
-      <img src="images/slide-3" alt="">
+      <img src="images/slide-2.svg" alt="">
+      <img src="images/slide-3.svg" alt="">
       <img src="images/slide-4.svg" alt="">
       <img src="images/slide-5.svg" alt="">
       <img src="images/slide-6.svg" alt="">
-    </div>
-    <div class="logo-slide">
       <img src="images/slide-1.svg" alt="">
-      <img src="images/slide-2" alt="">
-      <img src="images/slide-3" alt="">
+      <img src="images/slide-2.svg" alt="">
+      <img src="images/slide-3.svg" alt="">
       <img src="images/slide-4.svg" alt="">
       <img src="images/slide-5.svg" alt="">
       <img src="images/slide-6.svg" alt="">
-    </div>
-    <div class="logo-slide">
       <img src="images/slide-1.svg" alt="">
-      <img src="images/slide-2" alt="">
-      <img src="images/slide-3" alt="">
+      <img src="images/slide-2.svg" alt="">
+      <img src="images/slide-3.svg" alt="">
       <img src="images/slide-4.svg" alt="">
       <img src="images/slide-5.svg" alt="">
       <img src="images/slide-6.svg" alt="">
-    </div>
+      <img src="images/slide-1.svg" alt="">
+      <img src="images/slide-2.svg" alt="">
+      <img src="images/slide-3.svg" alt="">
+      <img src="images/slide-4.svg" alt="">
+      <img src="images/slide-5.svg" alt="">
+      <img src="images/slide-6.svg" alt="">
+      <img src="images/slide-1.svg" alt="">
+      <img src="images/slide-2.svg" alt="">
+      <img src="images/slide-3.svg" alt="">
+      <img src="images/slide-4.svg" alt="">
+      <img src="images/slide-5.svg" alt="">
+      <img src="images/slide-6.svg" alt="">
+    </div
   </div>
 
-  <div>
+  <div class="banner text-center">
     <img src="images/Banner.svg" alt="">
   </div>
 
   <main>
-    <section class="section-2 container">
-      <div class="section-2-title text-center">
+    <section class="section-1 container">
+      <div class="section-1-title">
         <h1 id="cars">Benefits</h1>
         <p>MenuMatic provides fast, convenient, and contactless ordering for customers via a simple QR scan – no app needed, ensuring accuracy and ease. For restaurants, it boosts operational efficiency, reduces long queues and waiting times</p>
       </div>
       <div class="flex">
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>01</h1>
           <h2>Convenience and Speed</h2>
           <p>Customers scan to order directly from their phone, bypassing lines and ordering at their own pace for a quicker, easier experience.</p>
           <img class="featured-img" src="images/arrow-icon.svg" alt="">
         </div>
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>02</h1>
           <h2>No App Required</h2>
           <p>Access the full digital menu instantly via a responsive website – no installation needed, making it easy for any smartphone user.</p>
           <img class="featured-img" src="images/arrow-icon.svg" alt="">
         </div>
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>03</h1>
           <h2>Order Accuracy</h2>
           <p>Get instant status updates and estimated wait times. Direct digital ordering significantly reduces errors compared to manual methods.</p>
@@ -105,19 +119,19 @@
         </div>
       </div>
       <div class="flex">
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>04</h1>
           <h2>Operational Efficiency</h2>
           <p>Streamlines the entire ordering process from customer to kitchen, enabling staff to manage orders quickly and effectively, leading to smoother operations.</p>
           <img class="featured-img" src="images/arrow-icon.svg" alt="">
         </div>
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>05</h1>
-          <h2>Error-Free Cost Savings/h2>
+          <h2>Error-Free Cost Savings</h2>
           <p>Automated ordering minimizes miscommunication, leading to fewer incorrect orders, less food waste, and reduced labor and printing expenses.</p>
           <img class="featured-img" src="images/arrow-icon.svg" alt="">
         </div>
-        <div class="section-2-banner card">
+        <div class="section-1-card card">
           <h1>06</h1>
           <h2>Maximize Table Revenue</h2>
           <p>Faster, more accurate service enhances customer satisfaction, leading to quicker table turnover and directly boosting overall sales and revenue.</p>
@@ -126,150 +140,138 @@
       </div>
     </section>
 
-    <section class="section-1 container" id="About">
-      <div>
-        <h1>How It Works</h1>
+    <section class="section-2 container" id="About">
+      <div class="section-2-title">
+        <h1><span><img src="images/Vector 12.svg" alt=""></span>How It Works</h1>
         <p>Getting Started with MenuMatic</p>
       </div>
-      <div class="grid container">
-        <div class="section-1-image">
+      <div class="flex container">
+        <div class="section-2-img">
           <img src="images/img-1.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Initiating the Order via QR Code Scan</h1>
-          <h2 class="section-1-info">The process begins when a customer is seated at a table or approaches a counter where a MenuMatic QR code is prominently displayed. Instead of waiting for a physical menu or a staff member, the customer simply uses their smartphone camera to scan this QR code.</h2>
+        <div class="section-2-card-front" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Initiating the Order via QR Code Scan</h1>
+          <h2 class="section-2-info">The process begins when a customer is seated at a table or approaches a counter where a MenuMatic QR code is prominently displayed. Instead of waiting for a physical menu or a staff member, the customer simply uses their smartphone camera to scan this QR code.</h2>
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Accessing the Digital Menu</h1>
-          <h2 class="section-1-info">Upon scanning, the customer is instantly directed to MenuMatic's dedicated website for that specific restaurant. A key advantage here is that no app download is required, making it immediately accessible to virtually any smartphone user. On this responsive website, the customer finds the full digital menu, which can be interactive and visually appealing, much like Browse an online store.</h2>
+      <div class="flex container">
+        <div class="section-2-card-back" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Accessing the Digital Menu</h1>
+          <h2 class="section-2-info">Upon scanning, the customer is instantly directed to MenuMatic's dedicated website for that specific restaurant. A key advantage here is that no app download is required, making it immediately accessible to virtually any smartphone user. On this responsive website, the customer finds the full digital menu, which can be interactive and visually appealing, much like Browse an online store.</h2>
         </div>
-        <div class="section-1-image">
+        <div class="section-2-img">
           <img src="images/img-2.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1-image">
+      <div class="flex container">
+        <div class="section-2-img">
           <img src="images/img-3.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Browse and Placing the Order</h1>
-          <h2 class="section-1-info">Customers can leisurely browse the menu at their own pace, viewing categories, item details, and potentially customization options (if the restaurant allows, like adding toppings or specifying preferences). They select the items they want and add them to a digital cart within the website interface. Once satisfied with their selection, they proceed to confirm and place their order through the system.</h2>
+        <div class="section-2-card-front" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Browse and Placing the Order</h1>
+          <h2 class="section-2-info">Customers can leisurely browse the menu at their own pace, viewing categories, item details, and potentially customization options (if the restaurant allows, like adding toppings or specifying preferences). They select the items they want and add them to a digital cart within the website interface. Once satisfied with their selection, they proceed to confirm and place their order through the system.</h2>
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Browse and Placing the Order</h1>
-          <h2 class="section-1-info">Customers can leisurely browse the menu at their own pace, viewing categories, item details, and potentially customization options (if the restaurant allows, like adding toppings or specifying preferences). They select the items they want and add them to a digital cart within the website interface. Once satisfied with their selection, they proceed to confirm and place their order through the system.</h2>
+      <div class="flex container">
+        <div class="section-2-card-back" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Browse and Placing the Order</h1>
+          <h2 class="section-2-info">Customers can leisurely browse the menu at their own pace, viewing categories, item details, and potentially customization options (if the restaurant allows, like adding toppings or specifying preferences). They select the items they want and add them to a digital cart within the website interface. Once satisfied with their selection, they proceed to confirm and place their order through the system.</h2>
         </div>
-        <div class="section-1-image">
+        <div class="section-2-img">
           <img src="images/img-4.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1-image">
-          <img src="images/img-1.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
+      <div class="flex container">
+        <div class="section-2-img">
+          <img src="images/img-5.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Providing Transparency and Updates</h1>
-          <h2 class="section-1-info">To enhance the customer experience, MenuMatic provides transparency after the order is placed. The system can display an estimated wait time for the order's preparation. Furthermore, customers may receive real-time status notifications through the website, letting them know if their food is being prepared, is ready for pickup or serving, or if there are any unexpected delays.</h2>
+        <div class="section-2-card-front" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Providing Transparency and Updates</h1>
+          <h2 class="section-2-info">To enhance the customer experience, MenuMatic provides transparency after the order is placed. The system can display an estimated wait time for the order's preparation. Furthermore, customers may receive real-time status notifications through the website, letting them know if their food is being prepared, is ready for pickup or serving, or if there are any unexpected delays.</h2>
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Payment and Receipt Process</h1>
-          <h2 class="section-1-info">Once the meal is completed or the order is ready, the payment process is integrated smoothly. MenuMatic generates a digital receipt for the customer through the website. Customers have flexibility in how they pay; they can present this digital receipt to the cashier or directly to the waiter serving their table. The final step involves the restaurant providing the customer with the official physical receipt after the payment is processed, ensuring a complete and convenient transaction.</h2>
+      <div class="flex container">
+        <div class="section-2-card-back" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-2-card-title">Payment and Receipt Process</h1>
+          <h2 class="section-2-info">Once the meal is completed or the order is ready, the payment process is integrated smoothly. MenuMatic generates a digital receipt for the customer through the website. Customers have flexibility in how they pay; they can present this digital receipt to the cashier or directly to the waiter serving their table. The final step involves the restaurant providing the customer with the official physical receipt after the payment is processed, ensuring a complete and convenient transaction.</h2>
         </div>
-        <div class="section-1-image">
+        <div class="section-2-img">
           <img src="images/img-6.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="section-3 container">
+      <div class="section-3-title">
         <h1>
           Our Pricing
         </h1>
       </div>
-      <div>
+      <div class="section-3-info flex">
         <p>Discover MenuMatic's straightforward pricing, built to provide clear value for restaurants of all sizes. Our tiered plans offer essential features and unlock advanced capabilities as your business needs evolve, delivering a strong return on investment through enhanced efficiency and increased sales.</p>
         <div>
-          <button>Monthly</button>
-          <button>Yearly</button>
+          <button class="mt-btn btn">Monthly</button>
+          <button class="yr-btn btn">Yearly</button>
         </div>
       </div>
-      <div class="grid container">
-        <div class="section-1">
-          <p>Basic Plan</p>
-          <h1>$29<span>/month</span></h1>
-          <h2>Available Features</h2>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Scan QR for instant ordering.</p>
+      <div class="section-3-content flex">
+        <div class="pricing-info grid container">
+          <div class="section-3">
+            <h2 class="text-center">Basic Plan</h2>
+            <h1 class="price text-center">$29<span>/month</span></h1>
+            <h2 class="text-center">Available Features</h2>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Scan QR for instant ordering.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Digital menu on any device, no app needed.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Select and place menu orders.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Orders sent instantly to kitchen.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Supports basic payment presentation
+            </p>
+            <p class="icon-text">
+              <span class="icon"><i class="fa-solid fa-xmark fa-sm" style="color: #403d39;"></i></span>Customers receive digital receipt.
+            </p>
+            <p class="icon-text">
+              <span class="icon"><i class="fa-solid fa-xmark fa-sm" style="color: #403d39;"></i></span>Advanced security features
+            </p>
+            <button class="btn">Get Started</button>
           </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Digital menu on any device, no app needed.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Select and place menu orders.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Orders sent instantly to kitchen.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Supports basic payment presentation</p>
-          </div>
-          <div>
-            <img src="images/ex-icon.svg" alt="">
-            <p>Customers receive digital receipt.</p>
-          </div>
-          <div>
-            <img src="images/ex-icon.svg" alt="">
-            <p>Advanced security features</p>
-          </div>
-          <button>Get Started</button>
         </div>
-      </div>
-      <div class="grid container">
-        <div class="section-1">
-          <p>Pro Plan</p>
-          <h1>$49<span>/month</span></h1>
-          <h2>Available Features</h2>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Real-time updates, estimated wait times.</p>
+        <div class="pricing-info grid container">
+          <div class="section-3">
+            <h2 class="text-center">Pro Plan</h2>
+            <h1 class="price text-center">$49<span>/month</span></h1>
+            <h2 class="text-center">Available Features</h2>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Real-time updates, estimated wait times.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Advanced menu customization options.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Access detailed analytics, reports.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Tools for table management.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Staff order ready alerts.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Customers receive digital receipt.
+            </p>
+            <p class="icon-text">
+              <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Advanced security features.
+            </p>
+            <button class="btn">Get Started</button>
           </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Advanced menu customization options.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Access detailed analytics, reports.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Tools for table management.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Staff order ready alerts</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Customers receive digital receipt.</p>
-          </div>
-          <div>
-            <img src="images/check-icon.svg" alt="">
-            <p>Advanced security features</p>
-          </div>
-          <button>Get Started</button>
         </div>
       </div>
     </section>
@@ -280,13 +282,13 @@
       <p>We want you to feel fully confident in choosing MenuMatic. Experience our system with peace of mind, knowing that we offer a moneyback guarantee if it doesn't meet your expectations for streamlining your operations.</p>
     </section>
 
-    <section class="section-1 container" id="About">
+    <section class="section-4 container" id="About">
       <div class="grid container">
-        <div class="section-1-image">
+        <div class="section-4-image">
           <img src="images/hero-img.svg" alt="" data-aos="fade-right" data-aos-duration="1300">
         </div>
-        <div class="section-1-banner" data-aos="fade-left" data-aos-duration="1300">
-          <h1 class="section-1-title">Get Started With QR</h1>
+        <div class="section-4-banner" data-aos="fade-left" data-aos-duration="1300">
+          <h1 class="section-4-title">Get Started With QR</h1>
           <p><span><img src="images/verified-check-icon.svg" alt=""></span><span>Unparalleled Efficiency: </span>Streamline workflow, drastically reduce errors, and free up staff time.</p> 
           <p><span><img src="images/verified-check-icon.svg" alt=""></span><span>Superior Convenience: </span>Offer fast, no-app ordering for customers; ensure smoother staff workflow.</p>
           <p><span><img src="images/verified-check-icon.svg" alt=""></span><span>Real Business Growth: </span>Modernize your restaurant, enhance customer experience, and boost revenue.</p>              
@@ -324,11 +326,50 @@
       </div>
     </section>
 
-    <footer>
-      
-    </footer>
-
   </main>
 
+  <footer>
+    <div class="contact container">
+      <div class="footer-contact flex-no-wrap">
+        <div class="footer-info">
+          <div class="footer-logo flex">
+            <img src="images/Logo.svg" alt="" >
+          </div>
+          <p><span><img src="images/msg-icon.svg" alt=""></span>menumatic@email.com</p>
+          <p><span><img src="images/call-icon.svg" alt=""></span>+63 9012345678</p>
+          <p><span><img src="images/location-icon.svg" alt=""></span>Malolos, Bulacan</p>
+        </div>
+        <div>
+          <div class="footer-info company-info grid">
+            <h2>Home</h2>
+            <button>Benefits</button>
+            <button>Plans</button>
+            <button>Features</button>
+            <button>Our FAQ</button>
+          </div>
+          <div class="footer-info company-info grid">
+            <h2>About Us</h2>
+            <button>Company</button>
+            <button>How It Works</button>
+            <button>Our Goals</button>
+          </div>
+          <div class="footer-info company-info grid">
+            <h2>Social Profiles</h2>
+            <div class="footer-socials inline-flex">
+              <a href="#" class="socials">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+              </a>
+              <a href="#" class="socials">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+              <a href="#" class="socials">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </footer>
 </body>
 </html>

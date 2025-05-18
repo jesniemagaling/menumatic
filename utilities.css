@@ -40,23 +40,20 @@
 }
 
 .container {
-    width: min(1280px, 100% - 2rem);
+    width: min(1595px, 100% - 2rem);
     margin: auto;
 }
 
 .card {
-    /* width: min(14.125em, 15.875em); */
-    padding: 2em 1.5em;
+    width: 29em;
+    padding: 3.125em;
     margin: 1.75em;
-    border-radius: 20px;
-    background: linear-gradient(124deg, rgba(55,74,109,0.5) 0%, rgba(17,18,19,1) 100%);
 }
 
 .btn {
-    background-color: #4177DC;
-    border-radius: 4px;
-    padding: 1em 2em;
-    font-family: exo;
+    border-radius: 8px;
+    padding: 1.125em 2.125em;
+    font-family: be vietnam pro;
     font-size: clamp(.5rem, 4vw, 1rem);
     font-weight: 500;
     border: none;
@@ -67,28 +64,17 @@
 
 .btn:hover,
 .btn:focus{
+    color: #ffffff;
+    background-color: #820D17;
+    font-weight: 600;
     transform: scale(1.05);
     transition: all .3s;
 }
 
-.banner-bag{
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 1.2em;
-    background: #242729;
-    border-radius: 20px 0;
-}
-
-.banner-bag:hover,
-.banner-bag:focus{
-    transition: all .3s;
-    padding: 1.3em;
-    background: #4177DC;
-    border-radius: 20px 0 20px 0;
-}
-
 .text-center {
     text-align: center;
+}
+
+.color {
+    background-color: #ffffff;
 }
