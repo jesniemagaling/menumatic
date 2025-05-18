@@ -45,11 +45,9 @@
 }
 
 .card {
-    /* width: min(14.125em, 15.875em); */
-    padding: 2em 1.5em;
+    width: 29em;
+    padding: 3.125em;
     margin: 1.75em;
-    border-radius: 20px;
-    background: linear-gradient(124deg, rgba(55,74,109,0.5) 0%, rgba(17,18,19,1) 100%);
 }
 
 .btn {
