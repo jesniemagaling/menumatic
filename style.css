@@ -492,12 +492,12 @@ header {
 
 /* features page */
 
-.section-1-features .flex {
-  justify-content: space-between;
-}
-
 .features-title {
   margin: 14rem 0 6rem 0;
+}
+
+.section-1-features .flex {
+  justify-content: space-between;
 }
 
 .features-title h1 {
@@ -538,5 +538,80 @@ header {
 }
 
 .cta button {
+  background-color: #820D17;
+}
+
+/* demo page */
+
+.section-1-demo {
+  padding: 14rem 0 12rem 0;
+}
+
+.section-1-demo .flex {
+  justify-content: space-between;
+  margin-bottom: 12em;
+}
+
+.demo-title h1 {
+  max-width: 23.125rem;
+}
+
+.demo-title p {
+  max-width: 48rem;
+}
+
+.demo-card {
+  max-width: 30.375rem;
+}
+
+.demo-card h1 {
+  font-size: 2rem;
+  margin-bottom: .275em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.demo-card-form {
+  max-width: 30.375rem;
+}
+
+.demo-card-form h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: .675em;
+}
+
+.demo-card img {
+  margin-top: 2em;
+}
+
+.demo-label {
+  font-size: 1.25em;
+}
+
+.demo-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1em;
+  width: 100%;
+  padding: 1.5em 1.25em;
+}
+
+.demo-input::placeholder {
+  color: #4C4C4D;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: be vietnam pro;
+}
+
+.demo-input textarea {
+  width: 100%;
+  height: 8rem;
+}
+
+.demo-card-form button {
+  float: right;
+  margin-top: 2.25em;
   background-color: #820D17;
 }

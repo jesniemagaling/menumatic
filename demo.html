@@ -38,34 +38,31 @@
 
   <main>
 
-    <section class="section-1-features container" id="Features">
-      <div class="features-title flex">
+    <section class="section-1-demo container" id="Features">
+      <div class="demo-title flex">
         <h1>See It In Action</h1>
         <p>Get a look at MenuMatic in action. See how it improves efficiency and customer experience firsthand.</p>
       </div>
-      <div class="grid-2">
-        <div class="features-card grid container">
+      <div class="grid-2 demo-info">
+        <div class="demo-card grid container">
           <h1>Scan this QR Code to try our mobile ordering system!</h1>
-          <p>Click the picture if it won’t load in your phone</h2>
-          <img src="" alt="">
+          <div class="text-center">
+            <p>Click the picture if it won’t load in your phone</h2>
+            <img src="images/qr.svg" alt="">
+          </div>
         </div>
-        <div class="features-card grid container">
-          <img src="images/two-users-icon.svg" alt="">
-          <h1>User-Friendly Interface</h1>
-          <p>The system is designed with a clean, responsive, and intuitive interface, ensuring that both customers and restaurant staff can easily navigate and use it. This user-centered design minimizes the learning curve and provides a smooth, efficient experience.</h2>
+        <div class="demo-card-form container">
+          <h1>Get Quote Now</h1>
+          <form action="contact-page">
+            <label class="demo-label" for="email">Email</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" class="demo-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+            <label class="demo-label" for="message">Message</label><br><br>
+            <textarea id="message" name="message" placeholder="Enter your Message" class="demo-input" required pattern=".{10,}"></textarea>
+          </form>
+          <button class="btn">Send Your Message</button>
         </div>
       </div>
       
-    </section>
-
-    <section class="cta container">
-      <div class="flex">
-        <div class="cta-content">
-          <h1><span>Together</span>, let’s transform your dining experience through modern innovation</h1>
-          <p>Delight Your Customers with Fast, Easy Ordering and Real-Time Updates.</p>
-        </div>
-        <button class="btn">Showcase</button>
-      </div>
     </section>
 
   </main>
