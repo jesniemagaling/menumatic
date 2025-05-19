@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="Company Logo" href="images/Logo.svg">
+  <link rel="shortcut icon" type="Company Logo" href="images/Logo.svg">
   <title>MenuMatic</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +19,10 @@
     <div class="navbar">
       <div class="logo"><a href="#"><img src="images/Logo.svg" alt=""></a></div>
       <ul class="links">
-        <li><a class="nav-link" href="#">Home</a></li>
-        <li><a class="nav-link" href="#">Features</a></li>
-        <li><a class="nav-link" href="#">Demo</a></li>
-        <li><a class="nav-link" href="#">Contact</a></li>
+        <li><a class="nav-link" href="home.html">Home</a></li>
+        <li><a class="nav-link" href="features.html">Features</a></li>
+        <li><a class="nav-link" href="demo.html">Demo</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
       <Button class="nav-btn btn">Login</Button>
       <!-- <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div> -->
@@ -46,8 +46,8 @@
         <h2 class="text-center">with Effortless Speed and Proven Simplicity.</h2>
         <p class="text-center">Optimize Staff Workflow and Upgrade Table Services</p>
         <div class="featured-btn text-center" data-aos="zoom-in" data-aos-duration="2600">
-          <button class="btn">Explore Now</button>
-          <button class="btn">View Plans</button>
+          <button class="btn"><a href="demo.html">Explore Now</a></button>
+          <button class="btn"><a href="#Plans">View Plans</a></button>
         </div>
       </article>
     </main>
@@ -93,7 +93,7 @@
   </div>
 
   <main>
-    <section class="section-1 container">
+    <section class="section-1 container" id="Benefits">
       <div class="section-1-title">
         <h1 id="cars">Benefits</h1>
         <p>MenuMatic provides fast, convenient, and contactless ordering for customers via a simple QR scan – no app needed, ensuring accuracy and ease. For restaurants, it boosts operational efficiency, reduces long queues and waiting times</p>
@@ -140,7 +140,7 @@
       </div>
     </section>
 
-    <section class="section-2 container" id="About">
+    <section class="section-2 container" id="Workflow">
       <div class="section-2-title">
         <h1><span><img src="images/Vector 12.svg" alt=""></span>How It Works</h1>
         <p>Getting Started with MenuMatic</p>
@@ -201,7 +201,7 @@
       </div>
     </section>
 
-    <section class="section-3 container">
+    <section class="section-3 container" id="Plans">
       <div class="section-3-title">
         <h1>
           Our Pricing
@@ -241,7 +241,7 @@
             <p class="icon-text">
               <span class="icon"><i class="fa-solid fa-xmark fa-sm" style="color: #403d39;"></i></span>Advanced security features
             </p>
-            <button class="btn">Get Started</button>
+            <button class="btn"><a href="contact.html">Get Started</a></button>
           </div>
         </div>
         <div class="pricing-info grid container">
@@ -270,7 +270,7 @@
             <p class="icon-text">
               <span><i class="fa-solid fa-check fa-sm" style="color: #403d39;"></i></span>Advanced security features.
             </p>
-            <button class="btn">Get Started</button>
+            <button class="btn"><a href="contact.html">Get Started</a></button>
           </div>
         </div>
       </div>
@@ -293,12 +293,12 @@
           <p><i class="fa-solid fa-circle-check fa-lg" style="color: #ffdbb8;"></i><span class="title">Unparalleled Efficiency: </span>Streamline workflow, drastically reduce errors, and free up staff time.</p> 
           <p><i class="fa-solid fa-circle-check fa-lg" style="color: #ffdbb8;"></i><span class="title">Superior Convenience: </span>Offer fast, no-app ordering for customers; ensure smoother staff workflow.</p>
           <p><i class="fa-solid fa-circle-check fa-lg" style="color: #ffdbb8;"></i><span class="title">Real Business Growth: </span>Modernize your restaurant, enhance customer experience, and boost revenue.</p>              
-          <button class="btn">Explore</button>
+          <button class="btn"><a href="features.html">Explore</a></button>
         </div>
       </div>
     </section>
 
-    <section class="section-5 container">
+    <section class="section-5 container" id="FAQ">
       <div class="section-5-title">
         <h1>Frequently Asked Questions</h1>
         <p>Still you have any questions? Contact our Team via support@menumatic.com</p>
@@ -344,16 +344,16 @@
         <div class="footer-links">
           <div class="footer-info company-info grid">
             <h2>Home</h2>
-            <button>Benefits</button>
-            <button>Plans</button>
-            <button>Features</button>
-            <button>Our FAQ</button>
+            <button><a href="#Benefits">Benefits</a></button>
+            <button><a href="#Plans">Plans</a></button>
+            <button><a href="features.html">Features</a></button>
+            <button><a href="#FAQ">Our FAQ</a></button>
           </div>
           <div class="footer-info company-info grid">
             <h2>About Us</h2>
-            <button>Company</button>
-            <button>How It Works</button>
-            <button>Our Goals</button>
+            <button><a href="#Home">Company</a></button>
+            <button><a href="#Workflow">How It Works</a></button>
+            <button><a href="#About">Our Goals</a></button>
           </div>
           <div class="footer-info company-info grid">
             <h2>Social Profiles</h2>

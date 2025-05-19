@@ -7,7 +7,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
-  scroll-padding-top: 12em;
+  scroll-padding-top: 10em;
 }
 
 main {
@@ -71,6 +71,12 @@ a {
   font-size: 1rem;
   color: #262626;
   cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: #FFFFFF;
+  transition: all .2s;
 }
 
 .nav-link {
@@ -282,7 +288,7 @@ header {
 
 .section-3-info p {
   max-width: 66rem;
-  margin-right: 16.8rem;
+  margin-right: 18.5rem;
 }
 .section-3-info .mt-btn {
   border: solid 2px #820D17;
@@ -301,6 +307,11 @@ header {
 
 .pricing-info {
   max-width: 48.75rem;
+}
+
+.pricing-info button a,
+.section-4-info button a {
+  color: #FFFFFF;
 }
 
 .pricing-info .btn {
@@ -338,7 +349,7 @@ header {
 }
 
 .section-banner {
-  padding: 8rem 0 12rem 0;
+  padding: 4rem 0 12rem 0;
 }
 
 .section-banner img {
@@ -399,7 +410,7 @@ header {
 .section-5 {
   display: flex;
   justify-content: space-between;
-  padding: 12.5rem 6.5rem;
+  padding: 10rem 6.5rem 12rem 5rem;
   gap: 7.5rem;
 }
 
@@ -541,6 +552,10 @@ header {
   background-color: #820D17;
 }
 
+.cta button a {
+  color: #FFFFFF;
+}
+
 /* demo page */
 
 .section-1-demo {
@@ -595,7 +610,7 @@ header {
   outline: none;
   font-size: 1em;
   width: 100%;
-  padding: 1.5em 1.25em;
+  padding: 1.25em 1em;
 }
 
 .demo-input::placeholder {
@@ -610,8 +625,11 @@ header {
   height: 8rem;
 }
 
+.demo-input:focus {
+  border: solid 2px #8d8d91;
+}
+
 .demo-card-form button {
-  float: right;
   margin-top: 2.25em;
   background-color: #820D17;
 }
@@ -642,19 +660,32 @@ header {
   justify-content: space-between;
 }
 
-.client-info button {
-  display: block;
-  margin: 0 auto;
+.client-btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.client-btn button {
   background-color: #820D17;
 }
 
 .client-card .grid-2 {
   gap: 2rem;
-  margin-bottom: 12em;
+  margin-bottom: 8em;
+}
+
+.client-card .grid-2 .grid input {
+  width: 100%;
 }
 
 .contacts {
   width: 28rem;
+}
+
+.contact-det input,
+.contact-det textarea {
+  margin-top: 1.5em;
 }
 
 .client-label {
@@ -667,7 +698,7 @@ header {
   outline: none;
   font-size: 1em;
   width: 100%;
-  padding: 1.5em 1.25em;
+  padding: 1.25em 1em;
 }
 
 .client-input::placeholder {
@@ -680,6 +711,10 @@ header {
 .client-input textarea {
   width: 100%;
   height: 8rem;
+}
+
+.client-input:focus {
+  border: solid 2px #8d8d91;
 }
 
 .contact-info {
@@ -696,5 +731,5 @@ header {
 }
 
 .contact-socials .socials {
-  padding: 0 1em;
+  padding: 0 1.375em;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="Company Logo" href="images/Logo.svg">
+  <link rel="shortcut icon" type="Company Logo" href="images/Logo.svg">
   <title>MenuMatic</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +19,10 @@
     <div class="navbar">
       <div class="logo"><a href="#"><img src="images/Logo.svg" alt=""></a></div>
       <ul class="links">
-        <li><a class="nav-link" href="#">Home</a></li>
-        <li><a class="nav-link" href="#">Features</a></li>
-        <li><a class="nav-link" href="#">Demo</a></li>
-        <li><a class="nav-link" href="#">Contact</a></li>
+        <li><a class="nav-link" href="home.html">Home</a></li>
+        <li><a class="nav-link" href="features.html">Features</a></li>
+        <li><a class="nav-link" href="demo.html">Demo</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
       <Button class="nav-btn btn">Login</Button>
       <!-- <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div> -->
@@ -46,30 +46,33 @@
       <div class="contact-banner flex">
         <div class="client-info">
           <div class="client-card grid container client-info">
-            <form class="grid-2" action="client-page">
-              <div class="contacts">
+            <form class="grid-2" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="00796e3c-9ee3-497a-9674-77beb00800f9">
+              <div class="contact-det contacts">
                 <label class="client-label" for="name">First Name</label><br>
                 <input type="name" id="name" name="name" placeholder="Enter First Name" class="client-input"><br>
               </div>
-              <div class="contacts">
+              <div class="contact-det contacts">
                 <label class="client-label" for="name">Last Name</label><br>
                 <input type="name" id="name" name="name" placeholder="Enter Last Name" class="client-input"><br>
               </div>
-              <div class="grid contacts">
+              <div class="contacts">
                 <label class="client-label" for="email">Email</label><br><br>
                 <input type="email" id="email" name="email" placeholder="Enter your Email" class="client-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
               </div>
-              <div class="grid contacts">
+              <div class="contact-det contacts">
                 <label class="client-label" for="phone">Phone</label>
                 <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" class="client-input">
               </div>
-              <div class="contacts">
+              <div class="contact-det contacts">
                 <label class="client-label" for="message">Message</label><br>
                 <textarea id="message" name="message" placeholder="Enter your Message" class="client-input" required pattern=".{10,}"></textarea>
               </div>
+              <div class="client-btn">
+                <button class="btn">Send Your Message</button>
+              </div>
             </form>
           </div>
-          <button class="btn">Send Your Message</button>
         </div>
         <div class="contact-info grid container">
           <div class="grid">
@@ -117,16 +120,16 @@
         <div class="footer-links">
           <div class="footer-info company-info grid">
             <h2>Home</h2>
-            <button>Benefits</button>
-            <button>Plans</button>
-            <button>Features</button>
-            <button>Our FAQ</button>
+            <button><a href="home.html">Benefits</a></button>
+            <button><a href="home.html">Plans</a></button>
+            <button><a href="features.html">Features</a></button>
+            <button><a href="home.html">Our FAQ</a></button>
           </div>
           <div class="footer-info company-info grid">
             <h2>About Us</h2>
-            <button>Company</button>
-            <button>How It Works</button>
-            <button>Our Goals</button>
+            <button><a href="home.html">Company</a></button>
+            <button><a href="home.html">How It Works</a></button>
+            <button><a href="home.html">ur Goals</a>O</button>
           </div>
           <div class="footer-info company-info grid">
             <h2>Social Profiles</h2>
