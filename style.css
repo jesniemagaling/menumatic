@@ -59,7 +59,7 @@ p {
   font-size: clamp(.875rem, 4vw, 1.125rem);
   font-weight: 400;
   font-family: be vietnam pro;
-  color: #4C4C4D;
+  color: #5d5d61;
   background-color: transparent;
   text-wrap: wrap;
 }
@@ -599,7 +599,7 @@ header {
 }
 
 .demo-input::placeholder {
-  color: #4C4C4D;
+  color: #5d5d61;
   font-weight: 400;
   font-size: 1em;
   font-family: be vietnam pro;
@@ -614,4 +614,87 @@ header {
   float: right;
   margin-top: 2.25em;
   background-color: #820D17;
+}
+
+/* contact page */
+
+.contact-title {
+  padding-top: 14rem;
+}
+
+.section-1-contact .flex {
+  justify-content: space-between;
+}
+
+.contact-banner {
+  margin: 12rem 0 18rem 0;
+}
+
+.contact-title h1 {
+  max-width: 23.125rem;
+}
+
+.contact-title p {
+  max-width: 46rem;
+}
+
+.client-info .grid {
+  justify-content: space-between;
+}
+
+.client-info button {
+  display: block;
+  margin: 0 auto;
+  background-color: #820D17;
+}
+
+.client-card .grid-2 {
+  gap: 2rem;
+  margin-bottom: 12em;
+}
+
+.contacts {
+  width: 28rem;
+}
+
+.client-label {
+  font-size: 1.25em;
+}
+
+.client-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1em;
+  width: 100%;
+  padding: 1.5em 1.25em;
+}
+
+.client-input::placeholder {
+  color: #5d5d61;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: be vietnam pro;
+}
+
+.client-input textarea {
+  width: 100%;
+  height: 8rem;
+}
+
+.contact-info {
+  max-width: 30rem;
+}
+
+.contact-info .grid {
+  padding: 2rem;
+}
+
+.contact-info .grid .fa-solid,
+.contact-socials {
+  padding: 3rem;
+}
+
+.contact-socials .socials {
+  padding: 0 1em;
 }
