@@ -38,28 +38,66 @@
 
   <main>
 
-    <section class="section-1-demo container" id="Features">
-      <div class="demo-title flex">
-        <h1>See It In Action</h1>
-        <p>Get a look at MenuMatic in action. See how it improves efficiency and customer experience firsthand.</p>
+    <section class="section-1-contact container" id="Features">
+      <div class="contact-title flex">
+        <h1>Contact Us</h1>
+        <p>Welcome to MenuMatic's, where we offer comprehensive options to cater to your restaurant's needs: Basic and Pro. We believe in providing flexible and value-driven pricing options for our QR ordering system. Whether you're a small cafe looking to streamline operations or a growing restaurant seeking to enhance customer experience and boost revenue, we have a plan that suits you.</p>
       </div>
-      <div class="grid-2 demo-info">
-        <div class="demo-card grid container">
-          <h1>Scan this QR Code to try our mobile ordering system!</h1>
-          <div class="text-center">
-            <p>Click the picture if it won’t load in your phone</h2>
-            <img src="images/qr.svg" alt="">
+      <div class="contact-banner flex">
+        <div class="client-info">
+          <div class="client-card grid container client-info">
+            <form class="grid-2" action="client-page">
+              <div class="contacts">
+                <label class="client-label" for="name">First Name</label><br>
+                <input type="name" id="name" name="name" placeholder="Enter First Name" class="client-input"><br>
+              </div>
+              <div class="contacts">
+                <label class="client-label" for="name">Last Name</label><br>
+                <input type="name" id="name" name="name" placeholder="Enter Last Name" class="client-input"><br>
+              </div>
+              <div class="grid contacts">
+                <label class="client-label" for="email">Email</label><br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" class="client-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+              </div>
+              <div class="grid contacts">
+                <label class="client-label" for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" class="client-input">
+              </div>
+              <div class="contacts">
+                <label class="client-label" for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Enter your Message" class="client-input" required pattern=".{10,}"></textarea>
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="demo-card-form container">
-          <h1>Get Quote Now</h1>
-          <form action="contact-page">
-            <label class="demo-label" for="email">Email</label><br><br>
-            <input type="email" id="email" name="email" placeholder="Enter your Email" class="demo-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
-            <label class="demo-label" for="message">Message</label><br><br>
-            <textarea id="message" name="message" placeholder="Enter your Message" class="demo-input" required pattern=".{10,}"></textarea>
-          </form>
           <button class="btn">Send Your Message</button>
+        </div>
+        <div class="contact-info grid container">
+          <div class="grid">
+            <i class="text-center fa-solid fa-envelope fa-lg" style="color: #262626;"></i>
+            <p>menumatic@gmail.com</p>
+          </div>
+          <div class="grid">
+            <i class="text-center fa-solid fa-phone fa-lg" style="color: #262626;"></i>
+            <p>+63 9012345678</p>
+          </div>
+          <div class="grid">
+            <i class="text-center fa-solid fa-location-dot fa-lg" style="color: #262626;"></i>
+            <p>Malolos, Bulacan</p>
+          </div>
+          <div class="grid">
+            <div class="contact-socials inline-flex">
+              <a href="#" class="socials">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+              </a>
+              <a href="#" class="socials">
+              <i class="fa-brands fa-square-instagram fa-xl"></i>
+              </a>
+              <a href="#" class="socials">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
+            </div>
+            <p class="text-center">Social Profiles</h2>
+          </div>
         </div>
       </div>
     </section>
